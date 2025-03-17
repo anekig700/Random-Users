@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8B3EDDEA2D8872FA00232CAD /* randomUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B3EDDE92D8872FA00232CAD /* randomUsers.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8B3EDD8D2D8360C100232CAD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		8B3EDD7C2D8360BF00232CAD /* RandomUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3EDD8C2D8360C100232CAD /* RandomUsersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUsersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3EDD962D8360C100232CAD /* RandomUsersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUsersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3EDDE92D8872FA00232CAD /* randomUsers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = randomUsers.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		8B3EDD732D8360BF00232CAD = {
 			isa = PBXGroup;
 			children = (
+				8B3EDDE92D8872FA00232CAD /* randomUsers.json */,
 				8B3EDD7E2D8360BF00232CAD /* RandomUsers */,
 				8B3EDD8F2D8360C100232CAD /* RandomUsersTests */,
 				8B3EDD992D8360C100232CAD /* RandomUsersUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3EDDEA2D8872FA00232CAD /* randomUsers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
