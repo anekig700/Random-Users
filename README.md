@@ -1,4 +1,4 @@
-# Random Users App
+# 📱 Random Users App
 
 A simple iOS app that grabs random user data from RandomUser.me and shows it in a list. Built with Swift, SwiftUI, and async/await.
 
